@@ -73,11 +73,61 @@
                 <use href="./images/modal-sprite.svg#icon-close"></use>
               </svg>
             </button>
-            <div class="try">
-              <!-- <svg class="icon-close">
-                <use href="./images/img2/modal-sprite.svg#icon-close"></use>
-              </svg> -->
-            </div>
+            <form class="form" action="" autocomplete="off">
+              <p class="form-title">Залиште свої дані, ми вам передзвонимо</p>
+
+              <div class="form-field">
+                <label>
+                  <span class="explain-text">Ім'я</span>
+                  <input type="text" name="user-name" />
+                  <svg class="form-icon icon-user">
+                    <use href="./images/modal-sprite.svg#icon-user"></use>
+                  </svg>
+                </label>
+              </div>
+
+              <div class="form-field">
+                <label>
+                  <span class="explain-text">Телефон</span>
+                  <input type="tel" name="user-tel" />
+                </label>
+                <svg class="form-icon icon-tel">
+                  <use href="./images/modal-sprite.svg#icon-tel"></use>
+                </svg>
+              </div>
+
+              <div class="form-field">
+                <label>
+                  <span class="explain-text">Пошта</span>
+                  <input type="email" name="user-mail" />
+                </label>
+                <svg class="form-icon icon-envelope-modal">
+                  <use href="./images/modal-sprite.svg#icon-envelope-modal"></use>
+                </svg>
+              </div>
+
+              <div class="form-field comment">
+                <label>
+                  <span class="explain-text">Коментар</span>
+                  <textarea class="user-comment" placeholder="Введіть текст"></textarea>
+                </label>
+              </div>
+
+              <div class="form-agreement-field">
+                <label>
+                  <input type="checkbox" name="user-agreement" />
+                  <svg class="icon-check">
+                    <use href="./images/modal-sprite.svg#icon-check"></use>
+                  </svg>
+                  <span class="agreement">
+                    Погоджуюся з розсилкою та приймаю
+                    <span class="attention">Умови договору</span></span
+                  >
+                </label>
+              </div>
+
+              <button class="form-submit" type="submit">Відправити</button>
+            </form>
           </div>
         </div>
       </section>
